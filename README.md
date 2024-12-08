@@ -6,7 +6,6 @@ This project implements a simple **Library Management System** using **Flask**, 
 
 ### 1. **Clone the Repository**:
    Clone this repository to your local machine:
-   ```bash
    git clone https://github.com/DnyaneshwariPatalee/library-management-system-flask.git
    cd library-management-system-flask
 
@@ -192,3 +191,21 @@ This project implements a simple **Library Management System** using **Flask**, 
 
 ### 4. **Logout**:
    - **POST** `/logout` (Logout and invalidate the token)
+
+## Future Improvements
+
+1. **Database Integration**:
+- Switch from in-memory storage to a database for persistent data.
+
+2. **User Registration and Roles**:
+- Implement user registration, password hashing, and support for different user roles (e.g., admin, member).
+
+3. **Input Validation**:
+- Add proper input validation and error handling for better user experience.
+
+4. **Rate Limiting**:
+- Implement rate limiting and other security features to protect the API.
+
+---
+
+Feel free to contribute, report issues, or suggest improvements!
